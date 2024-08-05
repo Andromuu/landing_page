@@ -143,3 +143,32 @@ body {
 
 /* Button CSS */
 
+.container-4 {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    margin: 100px 380px;
+    padding: 65px 200px;
+}
+.container-4 button {
+    border-radius: 12px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.action {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.action h1,p {
+    margin: 0;
+}
