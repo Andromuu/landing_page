@@ -172,3 +172,23 @@ body {
 .action h1,p {
     margin: 0;
 }
+
+/* Footer CSS */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    gap: 10px
+}
+
+.footer a {
+    font-size: 10px;
+    color: grey;
+}
