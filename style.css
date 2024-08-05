@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .container-1 {
@@ -9,8 +10,11 @@ body {
 }
 
 .header {
+    margin: 0 auto;
+    max-width: 1100px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header p {
@@ -21,10 +25,56 @@ body {
 
 .header ul {
     list-style-type: none;
+    display: flex;
+    gap: 25px;
 }
 
 .header a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left button {
+    color: white;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#dunas {
+    width: 550px;
+    height: 253px;
+    border: 1px solid white;
 }
